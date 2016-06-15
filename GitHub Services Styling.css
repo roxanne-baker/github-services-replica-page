@@ -1,0 +1,30 @@
+* {
+	font-family: sans-serif;
+}
+
+#header {
+	margin: 0px 450px;
+	padding: 20px 0px 30px 0px;
+}
+
+.logo {
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.header-nav {
+	text-decoration: none;
+	color: #555555;
+	float: right;
+	display: inline-block;
+	margin: 10px;
+}
+
+.banner {
+	margin: 0px;
+	padding: 50px 1000px 100px 450px;
+	display: block;
+	clear: both;
+	background-color: #042b61;
+	color: #ffffff;
+}
