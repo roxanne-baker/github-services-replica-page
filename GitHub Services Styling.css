@@ -1,16 +1,17 @@
 * {
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
+	/*src: local('Roboto Light'), local('Roboto-Light');*/
 }
 
 .header {
-	max-width: 1000px;
+	max-width: 950px;
 	text-align: center;
 	margin: auto;
 	display: block;
 }
 
 .logo {
-	margin: 28px 15px;
+	margin: 20px 0px;
 	float: left;
 	font-size: 1.5em;
 	text-decoration: none;
@@ -30,7 +31,7 @@
 }
 
 .banner {
-	padding: 95px 20px;
+	padding: 45px 20px;
 	margin: auto;
 	clear: both;
 	background-color: #042b61;
@@ -38,14 +39,23 @@
 	display: block;
 }
 
+.banner h1 {
+	font-weight: 300;
+	font-size: 3.3em;
+	margin-bottom: 0em;
+}
+
 .banner-text {
 	margin: auto;
-	max-width: 1000px;
+	max-width: 950px;
 }
 
 .banner span {
-	margin: auto;
-	max-width: 500px;
+	line-height: 150%;
+	font-size: 1.25em;
+	font-weight: 300;
+	margin: 0em, auto;
+	max-width: 575px;
 	display: inline-block;
 }
 
@@ -53,45 +63,105 @@
 	margin: auto;
 	text-align: center;
 	max-width: 1000px;
-	padding: 50px 0px;
+	padding-top: 75px;
+	line-height: 150%;
+	page-break-after: always;
+}
+
+.body h1 {
+	font-weight: 300;
+	font-size: 2.4em;
+	margin-top: 0.5em;
 }
 
 .body > .caption {
 	margin: auto;
-	padding: 0px 100px;
-	max-width: 650px;
+	padding: 0px 50px;
+	max-width: 700px;
+	font-weight: 300;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	clear: both;
+	margin-top: 7em;
 }
 
 .service {
-	padding: 0px 8px;
+	margin-top: 2.5em;
+	padding: 0px 12px;
 	display: inline-block;
-	width: 31%;
+	width: 29.68%;
 	vertical-align: top;
 }
 
-.body.tutorial {
+.service h2 {
+	font-weight: 500;
+	font-size: 1.4em;
+	margin-bottom: 0em;
+}
+
+.service p {
+	margin-top: 0.75em;
+}
+
+.learn-git {
+	max-width: 950px;
+	margin: 0em auto 6em auto;
+	float: left;
 	text-align: left;
 	display: inline-block;
-	padding: 15px;
 }
 
-.tutorial img {
+.learn-git img {
+	position: relative;
 	float: left;
-	padding: 0px 30px;
+	margin: auto;
+	text-align: left;
+	padding: 0px 60px 0px 60px;
+	display: inline-block;
+}
+
+.learn-git h2 {
+	font-weight: 300;
+	font-size: 1.9em;
 }
 
 
-#footer {
+.footer {
 	margin: auto;
-	max-width: 1000px;
+	clear: both;
+	max-width: 950px;
 	padding: 20px 0px 30px 0px;
+	font-size: 0.8em;
+	color: #555555;
+	vertical-align: center;
+	text-align: center;
+}
+
+.copyright-info {
+	margin: auto;
+	float: left;
+}
+
+.footer-img {
+	margin: auto;
+	display: inline-block;
+	vertical-align: center;
+}
+
+.footer-links {
+	float: right;
 }
 
 .footer-nav {
-	margin: 10px;
+	margin: auto 10px;
 	text-decoration: none;
 	float: right;
-	display: inline-block;
 	color: #0079d1;
 }
 
@@ -100,10 +170,11 @@
 }
 
 .banner .button span {
-	font-weight: bold;
+	font-weight: 400;
 	color: #ffffff;
 	border: 1px solid #ffffff;
 	width: auto;
+	margin: -1em auto 0.5em auto;
 }
 
 .banner .button span:hover {
@@ -116,7 +187,8 @@
 }
 
 .button span {
-	padding: 0.75em;
+	margin: 0em, auto;
+	padding: 0.75em 1.25em;
 	border: 1px solid #0079d1;
 	border-radius: 5px;
 	color: #0079d1;
