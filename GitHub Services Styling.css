@@ -40,9 +40,9 @@
 }
 
 .service {
-	margin: 0px;
+	padding: 0px 10px;
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 }
 
 .body.tutorial {
