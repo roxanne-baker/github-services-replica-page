@@ -2,14 +2,23 @@
 	font-family: sans-serif;
 }
 
-#header {
-	margin: 0px 450px;
-	padding: 20px 0px 30px 0px;
+.header {
+	max-width: 1000px;
+	text-align: center;
+	margin: auto;
+	display: block;
 }
 
 .logo {
+	margin: 28px 15px;
+	float: left;
 	font-size: 1.5em;
 	text-decoration: none;
+	display: block;
+}
+
+.logo:visited {
+	color: #000000;
 }
 
 .header-nav {
@@ -17,32 +26,47 @@
 	color: #555555;
 	float: right;
 	display: inline-block;
-	margin: 10px;
+	margin: 30px 10px;
 }
 
 .banner {
-	margin: 0px;
-	padding: 50px 1000px 100px 450px;
-	display: block;
+	padding: 95px 20px;
+	margin: auto;
 	clear: both;
 	background-color: #042b61;
 	color: #ffffff;
+	display: block;
+}
+
+.banner-text {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.banner span {
+	margin: auto;
+	max-width: 500px;
+	display: inline-block;
 }
 
 .body{
+	margin: auto;
 	text-align: center;
-	margin: 0px 450px;
+	max-width: 1000px;
 	padding: 50px 0px;
 }
 
 .body > .caption {
-	margin: 0px 100px;
+	margin: auto;
+	padding: 0px 100px;
+	max-width: 650px;
 }
 
 .service {
-	padding: 0px 10px;
+	padding: 0px 8px;
 	display: inline-block;
-	width: 30%;
+	width: 31%;
+	vertical-align: top;
 }
 
 .body.tutorial {
@@ -50,13 +74,52 @@
 }
 
 #footer {
-	margin: 0px 450px;
+	margin: auto;
+	max-width: 1000px;
 	padding: 20px 0px 30px 0px;
 }
 
 .footer-nav {
+	margin: 10px;
 	text-decoration: none;
 	float: right;
 	display: inline-block;
-	margin: 10px;
+	color: #0079d1;
+}
+
+.footer-nav:hover {
+	text-decoration: underline;
+}
+
+.banner .button span {
+	font-weight: bold;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	width: auto;
+}
+
+.banner .button span:hover {
+	background-color: #ffffff;
+	color: #0079d1;
+}
+
+.button {
+	margin-top: 50px;
+}
+
+.button span {
+	padding: 1em;
+	border: 1px solid #0079d1;
+	border-radius: 5px;
+	color: #0079d1;
+	text-decoration: none;
+}
+
+.button span:hover {
+	background-color: #0079d1;
+	color: #ffffff;
+}
+
+.button a {
+	text-decoration: none;
 }
