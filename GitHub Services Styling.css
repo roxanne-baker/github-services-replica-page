@@ -1,6 +1,6 @@
 * {
 	font-family: 'Roboto', sans-serif;
-	/*src: local('Roboto Light'), local('Roboto-Light');*/
+	src: local('Roboto Light'), local('Roboto-Light');
 }
 
 .header {
@@ -37,6 +37,11 @@
 	background-color: #042b61;
 	color: #ffffff;
 	display: block;
+	background-image: url("http://vybrantdes.com/sites/default/files/conference_meeting_rooms.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
 }
 
 .banner h1 {
@@ -65,7 +70,8 @@
 	max-width: 1000px;
 	padding-top: 75px;
 	line-height: 150%;
-	page-break-after: always;
+	color: #333333;
+	font-weight: 300;
 }
 
 .body h1 {
@@ -86,7 +92,7 @@
 hr {
 	border: 0;
 	height: 1px;
-	background: #333;
+	background: #e5e5e5;
 	clear: both;
 	margin-top: 7em;
 }
@@ -138,7 +144,7 @@ hr {
 	max-width: 950px;
 	padding: 20px 0px 30px 0px;
 	font-size: 0.8em;
-	color: #555555;
+	color: #767676;
 	vertical-align: center;
 	text-align: center;
 }
@@ -161,7 +167,6 @@ hr {
 .footer-nav {
 	margin: auto 10px;
 	text-decoration: none;
-	float: right;
 	color: #0079d1;
 }
 
