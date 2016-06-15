@@ -60,3 +60,17 @@
 	display: inline-block;
 	margin: 10px;
 }
+
+.button span {
+	padding: 1em;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+
+.button span:hover {
+	background-color: blue;
+}
+
+.button a {
+	text-decoration: none;
+}
