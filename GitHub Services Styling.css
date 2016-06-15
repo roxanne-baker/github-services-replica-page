@@ -28,3 +28,35 @@
 	background-color: #042b61;
 	color: #ffffff;
 }
+
+.body{
+	text-align: center;
+	margin: 0px 450px;
+	padding: 50px 0px;
+}
+
+.body > .caption {
+	margin: 0px 100px;
+}
+
+.service {
+	margin: 0px;
+	display: inline-block;
+	width: 33%;
+}
+
+.body.tutorial {
+	text-align: left;
+}
+
+#footer {
+	margin: 0px 450px;
+	padding: 20px 0px 30px 0px;
+}
+
+.footer-nav {
+	text-decoration: none;
+	float: right;
+	display: inline-block;
+	margin: 10px;
+}
