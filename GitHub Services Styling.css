@@ -71,7 +71,15 @@
 
 .body.tutorial {
 	text-align: left;
+	display: inline-block;
+	padding: 15px;
 }
+
+.tutorial img {
+	float: left;
+	padding: 0px 30px;
+}
+
 
 #footer {
 	margin: auto;
@@ -108,7 +116,7 @@
 }
 
 .button span {
-	padding: 1em;
+	padding: 0.75em;
 	border: 1px solid #0079d1;
 	border-radius: 5px;
 	color: #0079d1;
